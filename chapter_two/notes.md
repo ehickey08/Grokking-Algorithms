@@ -15,8 +15,16 @@
 | Method | Arrays | Linked Lists |
 | ------ | ------ | ------------ |
 | Reading | O(1) | O(n) |
-| Insertion | O(n) | O(1) |
-|Deletion | O(n) | O(1) |
+| Insertion/Deletion at start | O(n) | O(1) |
+|Insertion/Deletion in middle| O(n) | O(n) |
+| Insertion/Deletion at end| O(1) | O(1)
+
+# Selection Sort
+
 
 # Exercises
 2.1: List
+2.2 Linked list
+2.3 Array
+2.4 Binary Search needs sorted array so you would have O(n) insertions
+2.5 Faster than arrays at inserts, faster than linked lists at searching
